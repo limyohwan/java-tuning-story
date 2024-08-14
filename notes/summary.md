@@ -13,7 +13,7 @@
     - Dispatcher View Pattern: Front Controller와 View Helper로 디스패처 컴포넌트를 형성. 뷰처리가 종료될때까지 다른 활동을 지연한다는 점이 Service to Worker Pattern가 다름
     - Business Delegate Pattern: 비즈니스 서비스 접근을 캡슐화하는 패턴
     - Service Locator Pattern: 서비스와 컴포넌트 검색을 쉽게하는 패턴
-    - Session Facade Pattern: 비즈니스 티어 컴포넌트를 캡슐화하고, 원격 클라이언트에서 접근할 수 있는 서비스를 제공하는 팿ㅌ천
+    - Session Facade Pattern: 비즈니스 티어 컴포넌트를 캡슐화하고, 원격 클라이언트에서 접근할 수 있는 서비스를 제공하는 패턴
     - Composite Entity Pattern: 로컬 엔티티 빈과 POJO를 이용하여 큰 단위의 엔티티 객체를 구현
     - Transfer Object Pattern: 일명 Value Object Pattern 이라고 많이 알려져 있음. 데이터를 전송하기 위한 객체에 대한 패턴
     - Transfer Object Assembler Pattern: 하나의 Transfer Object로 모든 타입 데이터를 처리할 수 없으므로 여러 Transfer Object를 조합하거나 변형한 객체를 생성하여 사용하는 패턴
@@ -55,6 +55,6 @@
 - StringBuilder: 기존 객체에 더하는 방식
 - StringBuffer: 기존 객체에 더하는 방식, 쓰레드에 안전한 프로그래밍
 - 위와 같은 특징으로 StringBuillder는 String 보다 512배, StringBuffer는 367배 빠르지만 메모리는 String이 StringBuilder와 StringBuffer보다 3390배 더 사용함
-- JDK 5.0 이상이면 컴파하게 되면 String 연산을 StringBuilder로 변경함
+- JDK 5.0 이상이면 컴파일하게 되면 String 연산을 StringBuilder로 변경함
 
 ## 4. 어디에 담아야 하는지...
